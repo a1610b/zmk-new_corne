@@ -77,7 +77,7 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: /, s: '?'}
-  - '&CARET'
+  - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - END
