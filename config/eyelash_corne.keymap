@@ -103,7 +103,7 @@
 &kp TILDE  &kp EXCL      &kp AT        &kp LPAR   &kp RPAR   &kp AMPS                            &mmv MOVE_UP                     &kp CARET  &kp F7   &kp F8   &kp F9  &kp F10  &trans
 &kp PIPE  &kp HASH      &kp DLLR     &kp LBKT   &kp RBKT  &kp ASTRK             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &kp MINUS  &kp F4   &kp F5   &kp F6  &kp F11  &trans
 &trans  &kp PRCNT     &kp CARET    &kp LBRC   &kp RBRC      &kp BSLH   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp F1   &kp F2   &kp F3  &kp F12  &trans
-                                    &trans     &trans     &kp SPACE                                                             &trans    &RET     &trans
+                                    &trans     &trans     &kp SPACE                                                             &trans    &kp RET     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
