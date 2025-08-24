@@ -83,7 +83,7 @@ layers:
   - END
   - PG UP
   - PG DOWN
-  - '&UNDER'
+  - _
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '=', s: +}
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - '&RET'
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
