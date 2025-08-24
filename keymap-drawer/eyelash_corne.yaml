@@ -82,7 +82,7 @@ layers:
   - HOME
   - END
   - PG UP
-  - PG DOWN
+  - PG DN
   - _
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
